@@ -15,7 +15,7 @@ Wraps modules in the browser performance API.
 ``` javascript
 module.exports = {
   module: {
-    loaders: [
+    postLoaders: [
       { loader: "performance-loader" },
     ]
   }
