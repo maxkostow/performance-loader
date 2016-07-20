@@ -1,0 +1,23 @@
+{
+  "name": "performance-loader",
+  "version": "1.0.0",
+  "description": "performance-loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkostow/performance-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "performance"
+  ],
+  "author": "Max Kostow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxkostow/performance-loader/issues"
+  },
+  "homepage": "https://github.com/maxkostow/performance-loader#readme"
+}
