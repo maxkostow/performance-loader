@@ -35,3 +35,14 @@ console.table(
 )
 // table of modules that took longer than 1ms to run
 ```
+
+## How it works
+
+It wraps your modules in [`performance.mark`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark) and then calls [`performance.measure`](https://developer.mozilla.org/en-US/docs/Web/API/Performance/measure).
+
+```javascript
+window.performance.mark('/path/to/module.js--start')
+/*** module.js code here ***/
+window.performance.mark('/path/to/module.js--end')
+window.performance.measure('/path/to/module.js', '/path/to/module.js--start', '/path/to/module.js--end')
+```
