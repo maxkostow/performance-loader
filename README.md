@@ -2,7 +2,7 @@
 
 Wraps modules in the browser performance API.
 
-## installation
+## Installation
 
 `npm install performance-loader --save-dev`
 
